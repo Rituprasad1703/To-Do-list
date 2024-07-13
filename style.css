@@ -98,20 +98,33 @@ ul li span:hover{
     background-color: #edeef0;
     font-size: 26px;
 }
-@media screen and (max-width:408px) {
+@media screen and (max-width:370px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .ipbox{
+        display: flex;
+        flex-direction: column;
+    }
     input[type="text"]{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
     button{
-        width: 50%;
-        left: -45px;
-        padding: 10px 25px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
     }
     li{
         flex-direction: column;
         align-items: flex-start;
-    }
-    li button{
-        width: 50%;
     }
 }
