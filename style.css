@@ -100,12 +100,12 @@ ul li span:hover{
 }
 @media screen and (max-width:408px) {
     input[type="text"]{
-        width: 70%;
+        width: 100%;
     }
     button{
         width: 50%;
-        left: -25px;
-        padding: 10px 30px;
+        left: -45px;
+        padding: 10px 25px;
     }
     li{
         flex-direction: column;
