@@ -99,6 +99,9 @@ ul li span:hover{
     font-size: 26px;
 }
 @media screen and (max-width:370px) {
+    body{
+        width: 100%;
+    }
     .container{
         width: 100%;
         margin: 0 auto;
