@@ -98,9 +98,9 @@ ul li span:hover{
     background-color: #edeef0;
     font-size: 26px;
 }
-@media (max-width:400px) {
+@media screen and (max-width:408px) {
     input[type="text"]{
-        width: 100%;
+        width: 70%;
     }
     button{
         width: 50%;
@@ -110,7 +110,6 @@ ul li span:hover{
         align-items: flex-start;
     }
     li button{
-        width: 60%;
-        
+        width: 50%;
     }
 }
